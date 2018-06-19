@@ -69,5 +69,6 @@ public class SplashActivity  extends AwesomeSplash {
     public void animationsFinished() {
         Intent intent= new Intent(SplashActivity.this,HomeActivity.class);
         startActivity(intent);
+        finish();
     }
 }
